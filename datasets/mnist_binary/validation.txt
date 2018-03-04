@@ -1,0 +1,1 @@
+/home/szymon.zareba/dev/phd_pycaffe/experiments/datasets/mnist_binary/validation.h5

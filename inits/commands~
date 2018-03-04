@@ -1,0 +1,2 @@
+sed -i ':a;N;$!ba;s/\n/ /g' c.txt
+sed -i ':a;N;$!ba;s/,/ /g' c.txt
