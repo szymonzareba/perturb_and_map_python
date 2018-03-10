@@ -2,7 +2,7 @@ import csv
 import os
 import pprint
 
-from ais import estimate_log_prob
+from .ais import estimate_log_prob
 
 os.environ['GLOG_minloglevel'] = '2'
 
@@ -18,7 +18,7 @@ from sklearn.decomposition import PCA
 from scipy.spatial.distance import cdist
 import matplotlib.pyplot as plt
 import shutil
-from tsne import tsne
+from .tsne import tsne
 
 
 caffe.set_mode_cpu()

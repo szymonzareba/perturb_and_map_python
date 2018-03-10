@@ -1,6 +1,6 @@
 import os
 import caffe
-from experiment_factory import create_protos
+from .experiment_factory import create_protos
 from itertools import product
 from tqdm import tqdm
 

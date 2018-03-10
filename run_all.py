@@ -1,6 +1,6 @@
-from rbm_cd.rbm_cd import run as run_cd
-from rbm_pm1_cd.rbm_pm1_cd import run as run_pm_cd
-from rbm_pm1_geo.rbm_pm1_geo import run as run_pm_geo
+from .rbm_cd.rbm_cd import run as run_cd
+from .rbm_pm1_cd.rbm_pm1_cd import run as run_pm_cd
+from .rbm_pm1_geo.rbm_pm1_geo import run as run_pm_geo
 
 # dataset = 'mnist_binary'
 # gpu = 0

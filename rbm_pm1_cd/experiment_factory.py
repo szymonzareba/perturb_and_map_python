@@ -1,7 +1,7 @@
 
 import os
 
-from factory_commons import get_snapshots, get_batch_size
+from ..factory_commons import get_snapshots, get_batch_size
 
 
 def get_model_proto(cd_steps, num_hidden, dataset):
